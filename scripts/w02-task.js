@@ -11,7 +11,7 @@ console.log(`Full Name: ${fullName}`);
 const currentYear = new Date().getFullYear(); // Get the current year
 console.log(`Year: ${currentYear}`);
 
-let profilePicture = 'image/realme.png';
+let profilePicture = 'image/realmen.png';
 console.log(`Picture: ${profilePicture}`);
 
 /* Step 3 - Element Variables */

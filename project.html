@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSE 121b | Project</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+  <nav>
+    <ul id="menu">
+      <li><a id="toggleMenu">&equiv;</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="w01-task.html">W1 Task</a></li>
+      <li><a href="w03-task.html">W3 Task</a></li>
+      <li><a href="w04-task.html">W4 Task</a></li>
+      <li><a href="w05-task.html">W5 Task</a></li>
+      <li><a href="project.html" class="active">Project</a></li>
+    </ul>
+  </nav>
+  <main id="home">
+    <h1>Think Celestial | Jesus Christ, Temple, and Prophet</h1>
+    
+    <picture>
+      <img id="photo" src="images/Christ.png" alt="logo Image">
+      <img id="photo" src="images/Temple.png" alt="logo Image">
+      <img id="photo" src="images/Prophet.png" alt="logo Image">
+    </picture>
+
+    
+    <div class="button-box">
+      <a class="register" href="https://www.churchofjesuschrist.org/comeuntochrist/lp/basic-beliefs/meet-with-missionaries?lang=eng">COME FOLLOW ME</a>
+  </div>
+
+  <button id="change-color">Change Background Color Here</button>
+
+
+  <section>
+    <h1>Read and Ponder</h1>
+    <h2>Jesus Christ</h2>
+    <ul id="Jesus-Christ"></ul>
+    <h2>Temple</h2>
+    <ul id="temple"></ul>
+    <h2>Prophet</h2>
+    <dl id="prophet"></dl>
+ </section>
+
+ <h2><img class="logo" src="images/moronai.png" alt="Logo image">
+  When you are confronted with a dilemma, think celestial! When tested by temptation, think celestial!</h2>
+
+
+ </main>
+
+
+  <footer>
+    &copy;<span id="year"></span> | Week 06 - Project | CSE 121b
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script>
+    document.getElementById("year").innerHTML = new Date().getFullYear();
+  </script>
+  <script src="scripts/project.js"></script>
+</body>
+
+</html>
